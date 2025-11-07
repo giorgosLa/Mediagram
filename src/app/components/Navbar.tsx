@@ -12,18 +12,15 @@ export default function Navbar() {
 
   return (
     <motion.nav className="relative w-full flex items-center justify-between px-6 py-4 transition-colors duration-500 bg-[#fff7f0] overflow-visible">
-      {/* Fade-out κάτω */}
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-12 bg-gradient-to-b from-[#fff7f0] to-transparent" />
-
       {/* Logo */}
       <div className="flex-shrink-0 ml-6 lg:ml-8">
         <Link href="/">
           <Image
-            src="/logo.svg"
+            src="/logo.jpg"
             alt="Logo"
             width={240}
             height={240}
-            className="w-[160px] lg:w-[220px] h-auto"
+            className="w-[160px] lg:w-[220px] h-auto rounded-xl "
           />
         </Link>
       </div>
