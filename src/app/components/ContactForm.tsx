@@ -64,7 +64,7 @@ export default function ContactForm() {
             <ul className="space-y-3 text-gray-700">
               <li>
                 📞 Τηλέφωνο:{" "}
-                <span className="font-semibold">+30 210 1234567</span>
+                <span className="font-semibold">2810791325 ή 6944674782</span>
               </li>
               <li>
                 📧 Email:{" "}
