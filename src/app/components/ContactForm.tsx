@@ -72,7 +72,7 @@ export default function ContactForm() {
               </li>
               <li>
                 📍 Διεύθυνση:{" "}
-                <span className="font-semibold">Αθήνα, Ελλάδα</span>
+                <span className="font-semibold">Ηράκλειο Κρήτης, Ελλάδα</span>
               </li>
             </ul>
           </motion.div>
